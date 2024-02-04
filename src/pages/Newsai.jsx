@@ -230,7 +230,7 @@ function Newsai() {
         <div className="pb-3">
           <div className="pb-20 pt-10 sm:px-20 sm:mx-20 px-3 mx-2 mb-20 rounded-xl bg-gradient-to-br from-black to-blue-950 border-[0.1px] border-gray-700 shadow-blue-900 shadow-[0px_10px_50px_3px_rgba(0,0,0,0.1)] text-white ">
             <div className="bg-gradient-to-br from-blue-500 mb-8 to-cyan-400 bg-clip-text text-transparent text-3xl flex justify-center font-bold">
-              Generate content using AI
+              Generate News using AI
             </div>
 
             <form onSubmit={sendText}>
