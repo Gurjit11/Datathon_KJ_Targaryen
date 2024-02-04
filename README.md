@@ -9,7 +9,7 @@
 |
 <video src = "https://github.com/Gurjit11/Datathon_KJ_Targaryen/assets/102057550/fd01974a-d52e-48e0-b9e8-89e01472e93a" > </video>
 
-
+<img src = "https://github.com/Gurjit11/Datathon_KJ_Targaryen/assets/102057550/0f5bdbb2-64c1-4e4d-98fe-6aa3ac058dc1"> </image>
 
 
 
