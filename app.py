@@ -10,18 +10,18 @@ from duckduckgo_search import DDGS
 # import time
 import os
 import requests
-from pytube import YouTube
 import tempfile
 import openai
 from flask_cors import CORS, cross_origin
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.vectorstores import Pinecone
 from langchain.embeddings.openai import OpenAIEmbeddings
-import pinecone
+
+# import pinecone
 from langchain.llms import OpenAI
 from langchain.chains.question_answering import load_qa_chain
-import numpy as np
 
+# import numpy as np
 
 # Set environment variables
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
@@ -47,20 +47,20 @@ OPENAI_API_KEY = os.environ.get(
     "API_KEY", "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"
 )
 
-PINECONE_API_KEY = os.environ.get(
-    "PINECONE_API_KEY", "d7868a9a-40af-426a-940a-84a4b01d6960"
-)
-PINECONE_API_ENV = os.environ.get("PINECONE_API_ENV", "gcp-starter")
-# initialize pinecone
-pinecone.init(
-    api_key=PINECONE_API_KEY,  # find at app.pinecone.io
-    environment=PINECONE_API_ENV,  # next to api key in console
-)
-index_name = "transcribe"  # put in the name of your pinecone index here
-index = pinecone.Index(index_name)
+# PINECONE_API_KEY = os.environ.get(
+#     "PINECONE_API_KEY", "d7868a9a-40af-426a-940a-84a4b01d6960"
+# )
+# PINECONE_API_ENV = os.environ.get("PINECONE_API_ENV", "gcp-starter")
+# # initialize pinecone
+# pinecone.init(
+#     api_key=PINECONE_API_KEY,  # find at app.pinecone.io
+#     environment=PINECONE_API_ENV,  # next to api key in console
+# )
+# index_name = "transcribe"  # put in the name of your pinecone index here
+# index = pinecone.Index(index_name)
 
 
-docsearch = Pinecone
+# docsearch = Pinecone
 
 print("http://localhost:5000/")
 
