@@ -221,7 +221,7 @@ function Newsai() {
       <div className="sm:p-20 py-12 px-2 bg-[url('../public/bg.jpeg')] h-[400px] bg-cover">
         <div className=" mt-12 mb-24">
           <div className="text-white ">
-            <p className="text-3xl font-bold">AI News Video Generating Tool</p>
+            <p className="text-3xl font-bold">AI News Generating Tool</p>
             <p className="mt-3">Give a prompt or audio input or a photo</p>
             <p> and AI is to give latest news</p>
             <p> about that topic</p>
@@ -230,7 +230,7 @@ function Newsai() {
         <div className="pb-3">
           <div className="pb-20 pt-10 sm:px-20 sm:mx-20 px-3 mx-2 mb-20 rounded-xl bg-gradient-to-br from-black to-blue-950 border-[0.1px] border-gray-700 shadow-blue-900 shadow-[0px_10px_50px_3px_rgba(0,0,0,0.1)] text-white ">
             <div className="bg-gradient-to-br from-blue-500 mb-8 to-cyan-400 bg-clip-text text-transparent text-3xl flex justify-center font-bold">
-              Generate Video content using AI
+              Generate content using AI
             </div>
 
             <form onSubmit={sendText}>
