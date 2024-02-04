@@ -32,7 +32,7 @@ load_dotenv(find_dotenv())
 HUGGINGFACEHUB_API_TOKEN = os.getenv("HUGGINGFACEHUB_API_TOKEN")
 # Set the OpenAI API key
 openai.api_key = os.environ.get(
-    "API_KEY", "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"
+    "API_KEY", "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"
 )
 
 app = Flask(__name__)
@@ -44,7 +44,7 @@ data = "This video shows every YouTube play button ever handed out. Wow, okay, s
 # pinecone
 # Check to see if there is an environment variable with you API keys, if not, use what you put below
 OPENAI_API_KEY = os.environ.get(
-    "API_KEY", "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"
+    "API_KEY", "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"
 )
 
 # PINECONE_API_KEY = os.environ.get(
