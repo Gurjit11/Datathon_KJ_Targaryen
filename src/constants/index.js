@@ -48,9 +48,9 @@ export const features = [
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Versatile Educational Tool",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "In the education sector, News AI serves as a versatile tool for students and educators alike.",
   },
 ];
 
